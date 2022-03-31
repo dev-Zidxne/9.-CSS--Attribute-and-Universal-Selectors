@@ -1,0 +1,102 @@
+/* ===============================
+          GENERAL STYLES 
+================================== */
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+h1,
+h2 {
+  font-weight: 400;
+}
+
+h1 {
+  margin: 0 auto 10px;
+}
+
+a {
+  display: block;
+}
+
+section {
+  background-color: #f1f3f5;
+  width: 40%;
+  margin: 20px 0;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.last-time {
+  width: 100%;
+  display: block;
+}
+.last-time li {
+  padding: 5px;
+}
+
+.last-time a {
+  color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+}
+
+.last-time a:hover {
+  color: #37a18a;
+}
+
+.last-time code {
+  color: #37a18a;
+  font-size: 135%;
+}
+
+#attribute a {
+  margin: 10px 0;
+}
+
+/* ===============================
+              SELECTORS 
+  ================================== */
+
+/* attribute selectors */
+
+[href] {
+  color: red;
+}
+
+[target] {
+  color: green;
+}
+[href="http://www.apple.com"]
+{
+  color: blue;
+}
+
+[href^="http"] {
+  color: purple;
+}
+
+[href$="html"] {
+  color: deeppink;
+}
+[href*="://"]
+{
+  color: blue;
+}
+
+[id] {
+  background-color: yellow;
+}

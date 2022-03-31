@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="selectors.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Attribute & Universal Selectors</h1>
+      
+        <section class='last-time'>
+          <h2>Previously we looked at basic selectors...</h2>
+          <div>
+            <ul>
+              <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors">Type/Element selector:
+                  <code> h2 { ... }</code>
+                </a>
+              </li>
+              <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors">ID selector:
+                  <code> #id { ... }</code>
+                </a>
+              </li>
+              <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors">Class selector:
+                  <code> .class { ... }</code>
+                </a>
+              </li>
+              <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator">Child selector:
+                  <code> div > p { ... }</code>
+                </a>
+              </li>
+              <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Descendant_combinator">Descendant selector:
+                  <code> div p { ... }</code>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h2>Then last time we looked at sibling selectors...</h2>
+            <ul>
+              <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Adjacent_sibling_combinator">Adjacent sibling
+                  selector:
+                  <code> div > h1 + p { ... }</code>
+                </a>
+              </li>
+              <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/General_sibling_combinator">General sibling selector:
+                  <code> div > h1 ~ p { ... }</code>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+      
+        <!-- attribute -->
+        <section id="attribute">
+          <h2>Attribute Selector 👉 <span>[ ]</span></h2>
+          <a href="http://www.google.com" target="_blank">This link has an href & a target attribute</a>
+          <a href="http://www.microsoft.com">This link has an href attribute</a>
+          <a >We're selecting this link by the attribute value.</a>
+          <a href="contact.html">Contact Page</a>
+        </section>
+      
+        <!-- universal -->
+        <section class="universal">
+          <h2>Universal Selector 👉 *</h2>
+          <p> Selects all elements of any type. </p>
+        </section>
+      </div>
+</body>
+</html>
